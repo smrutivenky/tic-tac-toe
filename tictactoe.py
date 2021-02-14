@@ -36,8 +36,8 @@ class TicTacToe:
                 print(winner)
                 self.reset()
                 print("press R to play again and another key to Quit")
-                ip = input().lower()
-                if ip == 'r':
+                ip = input()
+                if ip == 'r' or ip == 'R':
                     self.PLAY = True
                 else:
                     self.PLAY = False
