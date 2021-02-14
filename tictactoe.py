@@ -27,7 +27,7 @@ class TicTacToe:
             print("Please enter a value between 0 and 2")
             column = input()
             if self.place_marker(symbol, row, column) is False:
-                print("Invalid move please enter the values again.")
+                print("Invali move please enter the values again.")
                 continue
             move_x = not move_x
             winner = self.winner_checker(symbol)
